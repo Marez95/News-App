@@ -1,0 +1,57 @@
+h2 {
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  color: #999999;
+  /* font-style: italic; */
+}
+
+.author {
+    font-style: italic;
+}
+.source {
+    font-style: italic;
+}
+
+.publishedAt {
+    font-style: italic;
+}
+
+.content {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  padding: 40px;
+  min-height: 70vh;
+}
+
+.context {
+  color: #999999;
+  font-size: larger;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  flex: 1;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
